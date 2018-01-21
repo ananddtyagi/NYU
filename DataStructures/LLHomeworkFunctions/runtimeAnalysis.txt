@@ -1,0 +1,9 @@
+Run Time Analysis:
+
+getIntersection: O(n^2) (if list1 and list2 are of equal length)
+terminates: O(n)
+SlowMaxStack: O(n)
+FastMaxStack:
+  push: O(1) because the new value is evaluated and potentially pushed onto the maxVal stack, which is constant.
+  pop: O(1) because maxVal is popped like a regular stack, which is constant.
+  getMaxSoFar: O(1) because it returns top of the stack, which happens in constant time.
